@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DHRZHN - Music Artist</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -15,37 +14,40 @@
 
         body {
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #7FFFD4, #FFFF00);
+            background: linear-gradient(135deg, #7FFFD4, #FFFF00); /* Aqua green-yellow gradient */
             color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin: 0;
+            padding: 0;
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
             padding: 40px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
             text-align: center;
             max-width: 600px;
             width: 90%;
+            margin: auto;
         }
 
         .header h1 {
-            font-weight: 900;
+            font-weight: 900; /* Increased font weight for boldness */
             color: #333;
-            font-size: 4em;
+            font-size: 4em; /* Larger font size for artist name */
             margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            font-family: 'Arial Black', sans-serif;
+            text-transform: uppercase; /* Convert text to uppercase for style */
+            letter-spacing: 3px; /* Increased letter spacing for a stylish look */
+            font-family: 'Arial Black', sans-serif; /* Stylish font family */
         }
 
         .topic h2 {
             font-size: 2em;
-            color: #FFD700;
+            color: #FFD700; /* Gold accent for headings */
             font-weight: 700;
             margin-bottom: 20px;
         }
@@ -68,36 +70,17 @@
             display: inline-block;
             padding: 15px 35px;
             color: white;
-            background-color: #32CD32;
+            background-color: #32CD32; /* Lime green background */
             text-decoration: none;
-            border-radius: 30px;
+            border-radius: 30px; /* Rounded button */
             transition: background-color 0.3s ease, transform 0.3s ease;
             font-size: 1.2em;
             font-weight: 700;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
         }
 
         .play-button:hover {
-            background-color: #7FFF00;
-            transform: scale(1.05);
-        }
-
-        .funky-button {
-            font-family: 'Comic Sans MS', cursive;
-            letter-spacing: 2px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: #fff;
-            background-color: #FF4500;
-            padding: 15px 35px;
-            border-radius: 30px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-            font-size: 1.2em;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .funky-button:hover {
-            background-color: #FF6347;
+            background-color: #7FFF00; /* Lighter green on hover */
             transform: scale(1.05);
         }
 
@@ -116,7 +99,7 @@
             margin: 0 10px;
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
-            font-size: 1.1em;
+            font-size: 1.1em; /* Larger font size for buttons */
         }
 
         .button:hover {
